@@ -1,8 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_GenerateElements", "Lesson_GenerateElements\Lesson_GenerateElements.csproj", "{121945B1-B44A-4B6C-AFB0-C57E6A36ECF4}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_GenerateElements", "Lesson_GenerateElements\Lesson_GenerateElements.csproj", "{121945B1-B44A-4B6C-AFB0-C57E6A36ECF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_MoveObject", "Lesson_MoveObject\Lesson_MoveObject.csproj", "{BB4F077B-3EFF-47A3-82DE-7BB6E70CAD1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_MoveObject", "Lesson_MoveObject\Lesson_MoveObject.csproj", "{BB4F077B-3EFF-47A3-82DE-7BB6E70CAD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_TimerApp", "Lesson_TimerApp\Lesson_TimerApp.csproj", "{F62142F8-9FFF-4A08-B050-90AD9CD12FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_AddRemoveElements", "Lesson_AddRemoveElements\Lesson_AddRemoveElements.csproj", "{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +25,19 @@ Global
 		{BB4F077B-3EFF-47A3-82DE-7BB6E70CAD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB4F077B-3EFF-47A3-82DE-7BB6E70CAD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB4F077B-3EFF-47A3-82DE-7BB6E70CAD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62142F8-9FFF-4A08-B050-90AD9CD12FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62142F8-9FFF-4A08-B050-90AD9CD12FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62142F8-9FFF-4A08-B050-90AD9CD12FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62142F8-9FFF-4A08-B050-90AD9CD12FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4CF490-DB4E-415C-8AED-DD55AB183E6F}
 	EndGlobalSection
 EndGlobal
