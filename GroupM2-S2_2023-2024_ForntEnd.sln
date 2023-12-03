@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_TimerApp", "Lesson_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_AddRemoveElements", "Lesson_AddRemoveElements\Lesson_AddRemoveElements.csproj", "{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_PlatformerApp", "Lesson_PlatformerApp\Lesson_PlatformerApp.csproj", "{AE7E8270-5051-4D17-9220-582B4DBEF165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF736F2-403B-4B16-89A4-31B8B6D1DE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7E8270-5051-4D17-9220-582B4DBEF165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7E8270-5051-4D17-9220-582B4DBEF165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7E8270-5051-4D17-9220-582B4DBEF165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7E8270-5051-4D17-9220-582B4DBEF165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
