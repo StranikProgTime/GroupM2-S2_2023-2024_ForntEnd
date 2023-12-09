@@ -16,6 +16,7 @@
                    Height="50"
                    Canvas.Left="100"
                    Canvas.Top="10"
+                   Name="Player"
                    />
 
         <Rectangle Fill="Orange" 
@@ -23,6 +24,7 @@
                    Height="50"
                    Canvas.Left="80"
                    Canvas.Top="150"
+                   Tag="platform"
                    />
 
         <Rectangle Fill="Orange" 
@@ -30,6 +32,7 @@
                    Height="50"
                    Canvas.Left="10"
                    Canvas.Top="300"
+                   Tag="platform"
                    />
 
         <Rectangle Fill="Orange" 
@@ -37,6 +40,7 @@
                    Height="50"
                    Canvas.Left="150"
                    Canvas.Top="450"
+                   Tag="platform"
                    />
 
 
@@ -45,13 +49,16 @@
                    Height="50"
                    Canvas.Left="0"
                    Canvas.Top="580"
+                   Tag="platform"
                    />
 
         <Rectangle Fill="Gold" 
                    Width="30" 
                    Height="30"
                    Canvas.Left="240"
-                   Canvas.Top="110" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top"
+                   Canvas.Top="110" 
+
+                   RenderTransformOrigin="0.5,0.5"
                    >
             <Rectangle.RenderTransform>
                 <TransformGroup>
