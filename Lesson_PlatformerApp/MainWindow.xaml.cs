@@ -30,6 +30,8 @@ namespace Lesson_PlatformerApp
         private int drop = 10;
         private int speed = 10;
 
+        private int coins = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -77,6 +79,38 @@ namespace Lesson_PlatformerApp
                         else
                         {
                             drop = 10;
+                        }
+                    }
+
+                    if (rectanlges[i].Tag.ToString() == "coin")
+                    {
+                        Rect coinCollision = new Rect(
+                            Canvas.GetLeft(rectanlges[i]),
+                            Canvas.GetTop(rectanlges[i]),
+                            rectanlges[i].Width,
+                            rectanlges[i].Height
+                        );
+
+                        if (coinCollision.IntersectsWith(playerCollision))
+                        {
+                            coins++;
+                            MyCanvas.Children.Remove(rectanlges[i]);
+                            Debug.WriteLine("Coin collected");
+                        }
+                    }
+
+                    if (rectanlges[i].Tag.ToString() == "portal")
+                    {
+                        Rect portalCollision = new Rect(
+                            Canvas.GetLeft(rectanlges[i]),
+                            Canvas.GetTop(rectanlges[i]),
+                            rectanlges[i].Width,
+                            rectanlges[i].Height
+                        );
+
+                        if (portalCollision.IntersectsWith(playerCollision))
+                        {
+                            MessageBox.Show("Collected coins: " + coins);
                         }
                     }
                 }

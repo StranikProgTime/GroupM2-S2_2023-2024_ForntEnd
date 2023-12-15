@@ -57,7 +57,7 @@
                    Height="30"
                    Canvas.Left="240"
                    Canvas.Top="110" 
-
+                   Tag="coin"
                    RenderTransformOrigin="0.5,0.5"
                    >
             <Rectangle.RenderTransform>
@@ -74,7 +74,9 @@
                    Width="30" 
                    Height="30"
                    Canvas.Left="117"
-                   Canvas.Top="254" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center"
+                   Canvas.Top="254" 
+                   Tag="coin"
+                   RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center"
                    >
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -90,7 +92,9 @@
                    Width="30" 
                    Height="30"
                    Canvas.Left="19"
-                   Canvas.Top="533" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   Canvas.Top="533" 
+                   Tag="coin"
+                   RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top"
                    >
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -109,6 +113,7 @@
                    Canvas.Top="530"
                    RadiusX="10"
                    RadiusY="20"
+                   Tag="portal"
                    />
     </Canvas>
 </Window>
