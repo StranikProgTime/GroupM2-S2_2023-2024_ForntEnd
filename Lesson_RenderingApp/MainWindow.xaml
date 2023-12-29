@@ -1,0 +1,13 @@
+﻿<Window x:Class="Lesson_RenderingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_RenderingApp"
+        mc:Ignorable="d"
+        Title="Rendering App v1.0" Height="450" Width="800">
+    <Canvas Name="MyCanvas">
+        <Ellipse Name="Ball" Width="50" Height="50" Fill="Purple" />
+        <Label Name="lblInfo" Content="INFO" FontSize="25" Canvas.Bottom="0" />
+    </Canvas>
+</Window>
